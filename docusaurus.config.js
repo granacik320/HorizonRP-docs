@@ -67,12 +67,6 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            href: '#',
-            position: 'left',
-            label: 'docs',
-          },
-          {
             href: '#',
             label: 'GitHub',
             position: 'right',
