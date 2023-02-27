@@ -19,8 +19,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'HorizonRP', // Usually your GitHub org/user name.
-  projectName: 'HorizonRP', // Usually your repo name.
+  organizationName: 'granacik320', // Usually your GitHub org/user name.
+  projectName: 'HorizonRP-docs', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
