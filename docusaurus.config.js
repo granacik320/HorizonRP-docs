@@ -58,6 +58,10 @@ const config = {
   themeConfig:
     /* @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: 'description', content: 'Author: granacik Author, Category: documentation, Documentation for HorizonRP server'},
+        {name: 'robots', content: 'noindex,nofollow'},
+      ],
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: true,
