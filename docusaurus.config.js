@@ -56,9 +56,13 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /* @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       image: 'img/logo.png',
       navbar: {
         logo: {
@@ -89,15 +93,15 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
+                label: 'FiveM',
                 href: '#',
               },
               {
                 label: 'Discord',
-                href: '#',
+                href: 'https://discord.gg/hT7k4h8wrr',
               },
               {
-                label: 'Twitter',
+                label: 'TikTok',
                 href: '#',
               },
             ],
@@ -106,7 +110,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
+                label: 'Store',
                 href: '#',
               },
             ],
